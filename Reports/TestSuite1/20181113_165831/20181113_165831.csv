@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2018-11-13 16:58:38,2018-11-13 16:58:48,10.114s,PASSED
+,,,,,,
+Test Cases/APIChainingDemo,,,2018-11-13 16:58:40,2018-11-13 16:58:45,5.909s,PASSED
+Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(RESTWebServices/ListUsers)),,,2018-11-13 16:58:41,2018-11-13 16:58:43,1.981s,PASSED
+Statement - slurper = new groovy.json.JsonSlurper(),,,2018-11-13 16:58:43,2018-11-13 16:58:43,0.049s,PASSED
+Statement - result = slurper.parseText(response1.getResponseBodyContent()),,,2018-11-13 16:58:43,2018-11-13 16:58:43,0.055s,PASSED
+Statement - value = first_name,,,2018-11-13 16:58:43,2018-11-13 16:58:43,0.017s,PASSED
+"Statement - println("".. value extracted is : "" + value)",,,2018-11-13 16:58:43,2018-11-13 16:58:43,0.011s,PASSED
+Statement - userName = value,,,2018-11-13 16:58:43,2018-11-13 16:58:43,0.042s,PASSED
+"Statement - println("".. Global variable is : "" + userName)",,,2018-11-13 16:58:43,2018-11-13 16:58:43,0.007s,PASSED
+sendRequestAndVerify,,,2018-11-13 16:58:43,2018-11-13 16:58:45,2.050s,PASSED
+,,,,,,
+Test Cases/SampleTestOne,,,2018-11-13 16:58:45,2018-11-13 16:58:48,2.420s,PASSED
+sendRequest,,,2018-11-13 16:58:46,2018-11-13 16:58:47,0.982s,PASSED
+sendRequest,,,2018-11-13 16:58:47,2018-11-13 16:58:48,0.759s,PASSED

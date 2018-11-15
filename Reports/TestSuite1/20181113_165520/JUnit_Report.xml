@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="7" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="7" timestamp="2018-11-13 16:55:25" hostname="raghav - 192.168.1.2" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/raghav/Katalon Studio/SampleRESTAPITestingProject/Reports/TestSuite1/20181113_165520"/>
+         <property name="logFiles" value="/Users/raghav/Katalon Studio/SampleRESTAPITestingProject/Reports/TestSuite1/20181113_165520/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raghav - 192.168.1.2"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+      </properties>
+      <testcase name="Test Cases/APIChainingDemo" classname="Test Cases/APIChainingDemo" status="PASSED">
+         <system-out><![CDATA[2018-11-13 16:55:25 - [TEST_CASE][PASSED] - Test Cases/APIChainingDemo: Test Cases/APIChainingDemo
+
+2018-11-13 16:55:26 - [TEST_STEP][PASSED] - Statement - response1 = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(RESTWebServices/ListUsers)): Send request successfully
+
+2018-11-13 16:55:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - Statement - slurper = new groovy.json.JsonSlurper(): null
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - Statement - result = slurper.parseText(response1.getResponseBodyContent()): null
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - Statement - value = first_name: null
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - Statement - println(".. value extracted is : " + value): null
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - Statement - userName = value: null
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - Statement - println(".. Global variable is : " + userName): null
+
+2018-11-13 16:55:28 - [TEST_STEP][PASSED] - sendRequestAndVerify: Send request and verify the response successfully
+
+2018-11-13 16:55:29 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-11-13 16:55:29 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2018-11-13 16:55:30 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2018-11-13 16:55:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-13 16:55:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-13 16:55:30 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-11-13 16:55:30 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SampleTestOne" classname="Test Cases/SampleTestOne" status="PASSED">
+         <system-out><![CDATA[2018-11-13 16:55:30 - [TEST_CASE][PASSED] - Test Cases/SampleTestOne: Test Cases/SampleTestOne
+
+2018-11-13 16:55:30 - [TEST_STEP][PASSED] - sendRequest: Send request successfully
+
+2018-11-13 16:55:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-13 16:55:31 - [TEST_STEP][PASSED] - sendRequest: Send request successfully
+
+2018-11-13 16:55:32 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 16:55:25 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/SampleTestOne]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenDemo,,,2018-11-13 17:42:14,2018-11-13 17:42:19,4.716s,PASSED
+,,,,,,
+Test Cases/DataDrivenDemoTest,,,2018-11-13 17:42:15,2018-11-13 17:42:18,2.593s,PASSED
+"Statement - println(""... using username : "" + Username)",,,2018-11-13 17:42:16,2018-11-13 17:42:16,0.018s,PASSED
+sendRequest,,,2018-11-13 17:42:16,2018-11-13 17:42:18,1.923s,PASSED
+,,,,,,
+Test Cases/DataDrivenDemoTest,,,2018-11-13 17:42:18,2018-11-13 17:42:18,0.575s,PASSED
+"Statement - println(""... using username : "" + Username)",,,2018-11-13 17:42:18,2018-11-13 17:42:18,0.006s,PASSED
+sendRequest,,,2018-11-13 17:42:18,2018-11-13 17:42:18,0.542s,PASSED
+,,,,,,
+Test Cases/DataDrivenDemoTest,,,2018-11-13 17:42:18,2018-11-13 17:42:19,0.569s,PASSED
+"Statement - println(""... using username : "" + Username)",,,2018-11-13 17:42:19,2018-11-13 17:42:19,0.005s,PASSED
+sendRequest,,,2018-11-13 17:42:19,2018-11-13 17:42:19,0.538s,PASSED

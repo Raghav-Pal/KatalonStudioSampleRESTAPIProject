@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite2,,,2018-11-13 17:32:35,2018-11-13 17:32:39,3.722s,PASSED
+,,,,,,
+Test Cases/New Test Case (1),,,2018-11-13 17:32:35,2018-11-13 17:32:37,1.844s,PASSED
+"Statement - println("".... using username : "" + Username)",,,2018-11-13 17:32:36,2018-11-13 17:32:36,0.008s,PASSED
+sendRequest,,,2018-11-13 17:32:36,2018-11-13 17:32:37,1.385s,PASSED
+,,,,,,
+Test Cases/New Test Case (1),,,2018-11-13 17:32:37,2018-11-13 17:32:38,0.551s,PASSED
+"Statement - println("".... using username : "" + Username)",,,2018-11-13 17:32:37,2018-11-13 17:32:37,0.007s,PASSED
+sendRequest,,,2018-11-13 17:32:37,2018-11-13 17:32:38,0.529s,PASSED
+,,,,,,
+Test Cases/New Test Case (1),,,2018-11-13 17:32:38,2018-11-13 17:32:39,0.756s,PASSED
+"Statement - println("".... using username : "" + Username)",,,2018-11-13 17:32:38,2018-11-13 17:32:38,0.002s,PASSED
+sendRequest,,,2018-11-13 17:32:38,2018-11-13 17:32:39,0.734s,PASSED
